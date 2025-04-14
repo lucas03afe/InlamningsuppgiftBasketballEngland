@@ -18,7 +18,7 @@ public class RegisterSteps {
 
     @When("användaren fyller i giltig födelsedag")
     public void fyll_i_fodelsedag() {
-        webDriver.findElement(By.id("dp")).sendKeys("21/10/2003");
+        webDriver.findElement(By.id("dp")).sendKeys("01/01/1928");
     }
 
     @When("användaren anger sitt förnamn")
